@@ -10,3 +10,8 @@ const loadProcessENV = (key: string): string => {
 }
 
 export const PORT = Number(loadProcessENV('PORT'))
+
+export const GOOGLE = {
+  CLIENT_ID: loadProcessENV('GOOGLE_CLIENT_ID'),
+  CLIENT_SECRET: loadProcessENV('GOOGLE_CLIENT_SECRET'),
+}

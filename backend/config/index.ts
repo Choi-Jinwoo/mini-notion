@@ -14,4 +14,9 @@ export const PORT = Number(loadProcessENV('PORT'))
 export const GOOGLE = {
   CLIENT_ID: loadProcessENV('GOOGLE_CLIENT_ID'),
   CLIENT_SECRET: loadProcessENV('GOOGLE_CLIENT_SECRET'),
+  CALLBACK_URL: loadProcessENV('GOOGLE_CALLBACK_URL'),
+}
+
+export const SESSION = {
+  SECRET: loadProcessENV('SESSION_SECRET'),
 }
